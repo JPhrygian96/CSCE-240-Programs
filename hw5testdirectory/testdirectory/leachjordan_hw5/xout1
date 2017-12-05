@@ -1,0 +1,17 @@
+Main: Distances
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3         4
+       and         5         4         3         2         3         4         4         4
+     final         6         5         4         3         4         5         5         5
+      line         7         6         5         4         5         4         5         6
+

@@ -1,0 +1,1031 @@
+Main: Beginning execution
+Main: infile  'xinput1.txt'
+Main: outfile 'xout1'
+Main: logfile 'xlog1'
+enter Initialize
+leave Initialize
+enter ComputeDistances
+process 1 1
+   process 1 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0        -1        -1        -1        -1        -1        -1
+        is         2        -1        -1        -1        -1        -1        -1        -1
+       the         3        -1        -1        -1        -1        -1        -1        -1
+    second         4        -1        -1        -1        -1        -1        -1        -1
+       and         5        -1        -1        -1        -1        -1        -1        -1
+     final         6        -1        -1        -1        -1        -1        -1        -1
+      line         7        -1        -1        -1        -1        -1        -1        -1
+
+process 1 2
+   process 1 2
+   process 2 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1        -1        -1        -1        -1        -1
+        is         2         1        -1        -1        -1        -1        -1        -1
+       the         3        -1        -1        -1        -1        -1        -1        -1
+    second         4        -1        -1        -1        -1        -1        -1        -1
+       and         5        -1        -1        -1        -1        -1        -1        -1
+     final         6        -1        -1        -1        -1        -1        -1        -1
+      line         7        -1        -1        -1        -1        -1        -1        -1
+
+process 1 3
+   process 1 3
+   process 2 2
+   process 3 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2        -1        -1        -1        -1
+        is         2         1         0        -1        -1        -1        -1        -1
+       the         3         2        -1        -1        -1        -1        -1        -1
+    second         4        -1        -1        -1        -1        -1        -1        -1
+       and         5        -1        -1        -1        -1        -1        -1        -1
+     final         6        -1        -1        -1        -1        -1        -1        -1
+      line         7        -1        -1        -1        -1        -1        -1        -1
+
+process 1 4
+   process 1 4
+   process 2 3
+   process 3 2
+   process 4 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3        -1        -1        -1
+        is         2         1         0         1        -1        -1        -1        -1
+       the         3         2         1        -1        -1        -1        -1        -1
+    second         4         3        -1        -1        -1        -1        -1        -1
+       and         5        -1        -1        -1        -1        -1        -1        -1
+     final         6        -1        -1        -1        -1        -1        -1        -1
+      line         7        -1        -1        -1        -1        -1        -1        -1
+
+process 1 5
+   process 1 5
+   process 2 4
+   process 3 3
+   process 4 2
+   process 5 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4        -1        -1
+        is         2         1         0         1         2        -1        -1        -1
+       the         3         2         1         0        -1        -1        -1        -1
+    second         4         3         2        -1        -1        -1        -1        -1
+       and         5         4        -1        -1        -1        -1        -1        -1
+     final         6        -1        -1        -1        -1        -1        -1        -1
+      line         7        -1        -1        -1        -1        -1        -1        -1
+
+process 1 6
+   process 1 6
+   process 2 5
+   process 3 4
+   process 4 3
+   process 5 2
+   process 6 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5        -1
+        is         2         1         0         1         2         3        -1        -1
+       the         3         2         1         0         1        -1        -1        -1
+    second         4         3         2         1        -1        -1        -1        -1
+       and         5         4         3        -1        -1        -1        -1        -1
+     final         6         5        -1        -1        -1        -1        -1        -1
+      line         7        -1        -1        -1        -1        -1        -1        -1
+
+process 1 7
+   process 1 7
+   process 2 6
+   process 3 5
+   process 4 4
+   process 5 3
+   process 6 2
+   process 7 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4        -1
+       the         3         2         1         0         1         2        -1        -1
+    second         4         3         2         1         2        -1        -1        -1
+       and         5         4         3         2        -1        -1        -1        -1
+     final         6         5         4        -1        -1        -1        -1        -1
+      line         7         6        -1        -1        -1        -1        -1        -1
+
+process 2 1
+   process 2 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4        -1
+       the         3         2         1         0         1         2        -1        -1
+    second         4         3         2         1         2        -1        -1        -1
+       and         5         4         3         2        -1        -1        -1        -1
+     final         6         5         4        -1        -1        -1        -1        -1
+      line         7         6        -1        -1        -1        -1        -1        -1
+
+process 2 2
+   process 2 2
+   process 3 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4        -1
+       the         3         2         1         0         1         2        -1        -1
+    second         4         3         2         1         2        -1        -1        -1
+       and         5         4         3         2        -1        -1        -1        -1
+     final         6         5         4        -1        -1        -1        -1        -1
+      line         7         6        -1        -1        -1        -1        -1        -1
+
+process 2 3
+   process 2 3
+   process 3 2
+   process 4 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4        -1
+       the         3         2         1         0         1         2        -1        -1
+    second         4         3         2         1         2        -1        -1        -1
+       and         5         4         3         2        -1        -1        -1        -1
+     final         6         5         4        -1        -1        -1        -1        -1
+      line         7         6        -1        -1        -1        -1        -1        -1
+
+process 2 4
+   process 2 4
+   process 3 3
+   process 4 2
+   process 5 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4        -1
+       the         3         2         1         0         1         2        -1        -1
+    second         4         3         2         1         2        -1        -1        -1
+       and         5         4         3         2        -1        -1        -1        -1
+     final         6         5         4        -1        -1        -1        -1        -1
+      line         7         6        -1        -1        -1        -1        -1        -1
+
+process 2 5
+   process 2 5
+   process 3 4
+   process 4 3
+   process 5 2
+   process 6 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4        -1
+       the         3         2         1         0         1         2        -1        -1
+    second         4         3         2         1         2        -1        -1        -1
+       and         5         4         3         2        -1        -1        -1        -1
+     final         6         5         4        -1        -1        -1        -1        -1
+      line         7         6        -1        -1        -1        -1        -1        -1
+
+process 2 6
+   process 2 6
+   process 3 5
+   process 4 4
+   process 5 3
+   process 6 2
+   process 7 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4        -1
+       the         3         2         1         0         1         2        -1        -1
+    second         4         3         2         1         2        -1        -1        -1
+       and         5         4         3         2        -1        -1        -1        -1
+     final         6         5         4        -1        -1        -1        -1        -1
+      line         7         6        -1        -1        -1        -1        -1        -1
+
+process 2 7
+   process 2 7
+   process 3 6
+   process 4 5
+   process 5 4
+   process 6 3
+   process 7 2
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3        -1
+    second         4         3         2         1         2         3        -1        -1
+       and         5         4         3         2         3        -1        -1        -1
+     final         6         5         4         3        -1        -1        -1        -1
+      line         7         6         5        -1        -1        -1        -1        -1
+
+process 3 1
+   process 3 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3        -1
+    second         4         3         2         1         2         3        -1        -1
+       and         5         4         3         2         3        -1        -1        -1
+     final         6         5         4         3        -1        -1        -1        -1
+      line         7         6         5        -1        -1        -1        -1        -1
+
+process 3 2
+   process 3 2
+   process 4 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3        -1
+    second         4         3         2         1         2         3        -1        -1
+       and         5         4         3         2         3        -1        -1        -1
+     final         6         5         4         3        -1        -1        -1        -1
+      line         7         6         5        -1        -1        -1        -1        -1
+
+process 3 3
+   process 3 3
+   process 4 2
+   process 5 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3        -1
+    second         4         3         2         1         2         3        -1        -1
+       and         5         4         3         2         3        -1        -1        -1
+     final         6         5         4         3        -1        -1        -1        -1
+      line         7         6         5        -1        -1        -1        -1        -1
+
+process 3 4
+   process 3 4
+   process 4 3
+   process 5 2
+   process 6 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3        -1
+    second         4         3         2         1         2         3        -1        -1
+       and         5         4         3         2         3        -1        -1        -1
+     final         6         5         4         3        -1        -1        -1        -1
+      line         7         6         5        -1        -1        -1        -1        -1
+
+process 3 5
+   process 3 5
+   process 4 4
+   process 5 3
+   process 6 2
+   process 7 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3        -1
+    second         4         3         2         1         2         3        -1        -1
+       and         5         4         3         2         3        -1        -1        -1
+     final         6         5         4         3        -1        -1        -1        -1
+      line         7         6         5        -1        -1        -1        -1        -1
+
+process 3 6
+   process 3 6
+   process 4 5
+   process 5 4
+   process 6 3
+   process 7 2
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3        -1
+    second         4         3         2         1         2         3        -1        -1
+       and         5         4         3         2         3        -1        -1        -1
+     final         6         5         4         3        -1        -1        -1        -1
+      line         7         6         5        -1        -1        -1        -1        -1
+
+process 3 7
+   process 3 7
+   process 4 6
+   process 5 5
+   process 6 4
+   process 7 3
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3        -1
+       and         5         4         3         2         3         4        -1        -1
+     final         6         5         4         3         4        -1        -1        -1
+      line         7         6         5         4        -1        -1        -1        -1
+
+process 4 1
+   process 4 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3        -1
+       and         5         4         3         2         3         4        -1        -1
+     final         6         5         4         3         4        -1        -1        -1
+      line         7         6         5         4        -1        -1        -1        -1
+
+process 4 2
+   process 4 2
+   process 5 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3        -1
+       and         5         4         3         2         3         4        -1        -1
+     final         6         5         4         3         4        -1        -1        -1
+      line         7         6         5         4        -1        -1        -1        -1
+
+process 4 3
+   process 4 3
+   process 5 2
+   process 6 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3        -1
+       and         5         4         3         2         3         4        -1        -1
+     final         6         5         4         3         4        -1        -1        -1
+      line         7         6         5         4        -1        -1        -1        -1
+
+process 4 4
+   process 4 4
+   process 5 3
+   process 6 2
+   process 7 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3        -1
+       and         5         4         3         2         3         4        -1        -1
+     final         6         5         4         3         4        -1        -1        -1
+      line         7         6         5         4        -1        -1        -1        -1
+
+process 4 5
+   process 4 5
+   process 5 4
+   process 6 3
+   process 7 2
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3        -1
+       and         5         4         3         2         3         4        -1        -1
+     final         6         5         4         3         4        -1        -1        -1
+      line         7         6         5         4        -1        -1        -1        -1
+
+process 4 6
+   process 4 6
+   process 5 5
+   process 6 4
+   process 7 3
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3        -1
+       and         5         4         3         2         3         4        -1        -1
+     final         6         5         4         3         4        -1        -1        -1
+      line         7         6         5         4        -1        -1        -1        -1
+
+process 4 7
+   process 4 7
+   process 5 6
+   process 6 5
+   process 7 4
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3         4
+       and         5         4         3         2         3         4         4        -1
+     final         6         5         4         3         4         5        -1        -1
+      line         7         6         5         4         5        -1        -1        -1
+
+process 5 1
+   process 5 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3         4
+       and         5         4         3         2         3         4         4        -1
+     final         6         5         4         3         4         5        -1        -1
+      line         7         6         5         4         5        -1        -1        -1
+
+process 5 2
+   process 5 2
+   process 6 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3         4
+       and         5         4         3         2         3         4         4        -1
+     final         6         5         4         3         4         5        -1        -1
+      line         7         6         5         4         5        -1        -1        -1
+
+process 5 3
+   process 5 3
+   process 6 2
+   process 7 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3         4
+       and         5         4         3         2         3         4         4        -1
+     final         6         5         4         3         4         5        -1        -1
+      line         7         6         5         4         5        -1        -1        -1
+
+process 5 4
+   process 5 4
+   process 6 3
+   process 7 2
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3         4
+       and         5         4         3         2         3         4         4        -1
+     final         6         5         4         3         4         5        -1        -1
+      line         7         6         5         4         5        -1        -1        -1
+
+process 5 5
+   process 5 5
+   process 6 4
+   process 7 3
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3         4
+       and         5         4         3         2         3         4         4        -1
+     final         6         5         4         3         4         5        -1        -1
+      line         7         6         5         4         5        -1        -1        -1
+
+process 5 6
+   process 5 6
+   process 6 5
+   process 7 4
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3         4
+       and         5         4         3         2         3         4         4        -1
+     final         6         5         4         3         4         5        -1        -1
+      line         7         6         5         4         5        -1        -1        -1
+
+process 5 7
+   process 5 7
+   process 6 6
+   process 7 5
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3         4
+       and         5         4         3         2         3         4         4         4
+     final         6         5         4         3         4         5         5        -1
+      line         7         6         5         4         5         4        -1        -1
+
+process 6 1
+   process 6 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3         4
+       and         5         4         3         2         3         4         4         4
+     final         6         5         4         3         4         5         5        -1
+      line         7         6         5         4         5         4        -1        -1
+
+process 6 2
+   process 6 2
+   process 7 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3         4
+       and         5         4         3         2         3         4         4         4
+     final         6         5         4         3         4         5         5        -1
+      line         7         6         5         4         5         4        -1        -1
+
+process 6 3
+   process 6 3
+   process 7 2
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3         4
+       and         5         4         3         2         3         4         4         4
+     final         6         5         4         3         4         5         5        -1
+      line         7         6         5         4         5         4        -1        -1
+
+process 6 4
+   process 6 4
+   process 7 3
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3         4
+       and         5         4         3         2         3         4         4         4
+     final         6         5         4         3         4         5         5        -1
+      line         7         6         5         4         5         4        -1        -1
+
+process 6 5
+   process 6 5
+   process 7 4
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3         4
+       and         5         4         3         2         3         4         4         4
+     final         6         5         4         3         4         5         5        -1
+      line         7         6         5         4         5         4        -1        -1
+
+process 6 6
+   process 6 6
+   process 7 5
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3         4
+       and         5         4         3         2         3         4         4         4
+     final         6         5         4         3         4         5         5        -1
+      line         7         6         5         4         5         4        -1        -1
+
+process 6 7
+   process 6 7
+   process 7 6
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3         4
+       and         5         4         3         2         3         4         4         4
+     final         6         5         4         3         4         5         5         5
+      line         7         6         5         4         5         4         5        -1
+
+process 7 1
+   process 7 1
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3         4
+       and         5         4         3         2         3         4         4         4
+     final         6         5         4         3         4         5         5         5
+      line         7         6         5         4         5         4         5        -1
+
+process 7 2
+   process 7 2
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3         4
+       and         5         4         3         2         3         4         4         4
+     final         6         5         4         3         4         5         5         5
+      line         7         6         5         4         5         4         5        -1
+
+process 7 3
+   process 7 3
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3         4
+       and         5         4         3         2         3         4         4         4
+     final         6         5         4         3         4         5         5         5
+      line         7         6         5         4         5         4         5        -1
+
+process 7 4
+   process 7 4
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3         4
+       and         5         4         3         2         3         4         4         4
+     final         6         5         4         3         4         5         5         5
+      line         7         6         5         4         5         4         5        -1
+
+process 7 5
+   process 7 5
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3         4
+       and         5         4         3         2         3         4         4         4
+     final         6         5         4         3         4         5         5         5
+      line         7         6         5         4         5         4         5        -1
+
+process 7 6
+   process 7 6
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3         4
+       and         5         4         3         2         3         4         4         4
+     final         6         5         4         3         4         5         5         5
+      line         7         6         5         4         5         4         5        -1
+
+process 7 7
+   process 7 7
+INTERMEDIATE MATRIX
+Sentence One:
+XX | this | is | the | first | line | XX | XX | 
+Sentence Two:
+XX | this | is | the | second | and | final | line | 
+
+Distance Matrix:
+                  XX      this        is       the     first      line        XX        XX
+        XX         0         1         2         3         4         5         6         7
+      this         1         0         1         2         3         4         5         6
+        is         2         1         0         1         2         3         4         5
+       the         3         2         1         0         1         2         3         4
+    second         4         3         2         1         2         3         3         4
+       and         5         4         3         2         3         4         4         4
+     final         6         5         4         3         4         5         5         5
+      line         7         6         5         4         5         4         5         6
+
+leave ComputeDistances
+Main: Ending execution

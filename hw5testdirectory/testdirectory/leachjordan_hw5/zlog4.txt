@@ -1,0 +1,5 @@
+Main: Beginning execution
+Main: infile  '../../xinput4.txt'
+Main: outfile 'zout4.txt'
+Main: logfile 'zlog4.txt'
+Main: Ending execution
